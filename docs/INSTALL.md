@@ -22,6 +22,7 @@ Then:
 
     sudo pip install virtualenv
     mkdir jmvenv
+    virtualenv jmvenv
     cd jmvenv; source bin/activate; cd ..
 
 Install this repo in the virtualenv:
